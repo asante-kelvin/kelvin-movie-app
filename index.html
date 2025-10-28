@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asante's Movie Empire | Modern Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">🎬 Asante's Movie Empire</div>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#" id="home-link" class="active">Home</a>
+            <a href="#" id="popular-link">Popular</a>
+            <a href="#" id="top-rated-link">Top Rated</a>
+            <a href="#" id="upcoming-link">Upcoming</a>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search movies..." />
+            <button id="search-btn" aria-label="Search">Search</button>
+        </div>
+
+        <div class="menu-icon" id="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1 id="hero-title">Featured Movie</h1>
+                <p id="hero-info">Action • Adventure • 2025</p>
+                <button class="btn-primary" id="explore-btn">🎬 Explore Now</button>
+            </div>
+        </section>
+
+
+        <section class="movie-section">
+            <h2 id="section-title">Popular Movies</h2>
+            <div class="movie-container" id="movie-container">
+            </div>
+        </section>
+    </main>
+
+    <div class="movie-modal" id="movie-modal">
+        <div class="modal-content" id="modal-content">
+        </div>
+    </div>
+
+    
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 <span class="brand">Movie Empire</span>. Data provided by TMDb.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
