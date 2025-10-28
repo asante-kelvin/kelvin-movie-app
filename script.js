@@ -1,12 +1,4 @@
-/**
- * MovieApp Class for managing TMDB API interactions and UI.
- * This version includes:
- * - Dynamic hero background section
- * - Explore button scroll feature
- * - Functional dynamic navigation (with active state)
- * - Functional movie card click and trailer button binding
- * - Responsive Hamburger Menu Logic
- */
+
 
 class MovieApp {
     // ==========================
