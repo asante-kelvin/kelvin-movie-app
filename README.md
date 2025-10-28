@@ -1,6 +1,6 @@
 # 🎬 Kelvin Movie App
 
-Kelvin Movie App is a **modern movie discovery web application** built using **HTML, CSS, and JavaScript**.  
+Kelvin Movie App this is a **modern movie discovery web application** built using **HTML, CSS, and JavaScript**.  
 It uses the [TMDB API](https://www.themoviedb.org/) to fetch live movie data — including posters, ratings, and trailers.
 
 ---
